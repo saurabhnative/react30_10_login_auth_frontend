@@ -9,6 +9,7 @@ function RegistrationForm(props) {
         email : "",
         password : "",
         confirmPassword: "",
+        userName: "",
         successMessage: null
     })
     const handleChange = (e) => {
@@ -24,6 +25,7 @@ function RegistrationForm(props) {
             const payload={
                 "email":state.email,
                 "password":state.password,
+                "name": state.userName
             }
             axios.post(API_BASE_URL+'/user/register', payload)
                 .then(function (response) {
@@ -67,6 +69,16 @@ function RegistrationForm(props) {
         <div className="card col-12 col-lg-4 login-card mt-2 hv-center">
             <form>
                 <div className="form-group text-left">
+                <div className="form-group text-left">
+                    <label htmlFor="exampleInputPassword1">User Name</label>
+                    <input type="text" 
+                        className="form-control" 
+                        id="userName" 
+                        placeholder="Add User Name"
+                        value={state.userName}
+                        onChange={handleChange} 
+                    />
+                </div>
                 <label htmlFor="exampleInputEmail1">Email address</label>
                 <input type="email" 
                        className="form-control" 
