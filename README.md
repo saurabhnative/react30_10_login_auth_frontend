@@ -2,7 +2,7 @@
 Create frontend applicaton for login authenitcation
 
 ### Objective:
-Build login and resitration forms and connect APIs to authenticate a user
+Build login and registration forms and connect APIs to authenticate a user
 
 ### Learnings:
 Learn how to authenticate a user in frontend and use a session token for handling private routes
