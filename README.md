@@ -1,5 +1,5 @@
-# react30_9_login_auth_backend
-Create frontend applicaton for login authenitcation
+# react30_9_login_auth_frontend
+Create frontend applicaton for login authentication
 
 ### Objective:
 Build login and registration forms and connect APIs to authenticate a user
