@@ -1,15 +1,32 @@
-## Login forms using react.js hooks 
-A project to demonstrate usage of basic react.js hooks  
+# react30_9_login_auth_backend
+Create frontend applicaton for login authenitcation
 
+### Objective:
+Build login and resitration forms and connect APIs to authenticate a user
 
-### Article Part 1:      
-<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1597338639/Blogimages/1_screen3_pahzhf.png" width=500 >   
-Medium: https://medium.com/technoetics/create-basic-login-forms-using-react-js-hooks-and-bootstrap-2ae36c15e551
+### Learnings:
+Learn how to authenticate a user in frontend and use a session token for handling private routes
 
-### Article Part 2:   
-<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1597337348/Blogimages/coverimage_yxrp7t.png" width=500 >   
-Personal Blog: https://coderwhodreams.com/blog/creating-private-routes-and-handling-session-in-react-js/
+## Available Scripts
+In the project directory, you can run:
 
+### `yarn start`
 
-### Leave a feedback
-If you found this project useful, then make sure to star the project.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
