@@ -7,6 +7,9 @@ Build login and registration forms and connect APIs to authenticate a user
 ### Learnings:
 Learn how to authenticate a user in frontend and use a session token for handling private routes
 
+### Demo  
+<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1597338639/Blogimages/1_screen3_pahzhf.png" />
+
 ## Available Scripts
 In the project directory, you can run:
 
